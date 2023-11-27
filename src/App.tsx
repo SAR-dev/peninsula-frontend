@@ -3,6 +3,7 @@ import { App, Page, Navbar, List, ListItem, Checkbox, Block, Button } from 'kons
 
 export default function MyApp() {
   const [theme, setTheme] = useState<"ios" | "material">('ios');
+  
   return (
     <App theme={theme} dark={true}>
       <Page>

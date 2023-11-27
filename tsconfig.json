@@ -23,9 +23,13 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@src/*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@api/*": ["src/api/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@providers/*": ["src/providers/*"],
     }
   },
   "include": [
